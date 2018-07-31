@@ -14,7 +14,7 @@ public class DataObject extends NonSerializable implements Serializable {
 
     transient private String[] def = {"aaa", "bbb", "cccc"};
 
-    private CustomObject customObject;
+    private CustomObject customObject = new CustomObject();
 
     public DataObject() {
     }
